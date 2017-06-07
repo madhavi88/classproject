@@ -1,0 +1,59 @@
+body{
+ color:red; 
+<style>
+/* Only resize the element if PDF is embedded */
+.pdfobject-container {
+   width: 200px;
+   height: 500px;
+}
+</style>
+
+}
+
+* {
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto' ,sans-serif;
+    
+}
+/*-----heading 1 -----------*/
+h1{
+    text-transform:uppercase;
+    font-size:2.5rem;
+    margin:2rem 0;
+    margin-left:0;
+
+    font-family:'Roboto Slab',serif;
+
+
+}
+/* ---paragraph --- */
+p{
+    font-size:1.2rem;
+    margin:2rem;
+    font-weight:300;
+}
+/* --- ----(anchors)links-----  */
+a{
+color:white;
+text-decoration:none;
+}
+
+.wrap{
+    padding:2rem;
+    width:100%;
+    max-width:1000px;
+    margin:0 auto;
+}
+.header {
+  background-color: #333333;
+  background-image: url('hero-bg-pizza.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #FFFFFF;
+  text-align: center;
+}
